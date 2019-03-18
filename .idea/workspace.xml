@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="030f23c3-2329-45d7-9b5b-0baad627adfe" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/gettingstartedjunit5/patientintake/ClinicCalendarTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/gettingstartedjunit5/patientintake/ClinicCalendarTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/patientintake/ClinicCalendar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/patientintake/ClinicCalendar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/patientintake/ClinicMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/patientintake/ClinicMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/patientintake/ClinicCalendarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/patientintake/ClinicCalendarTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -21,63 +21,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/patientintake/ClinicCalendar.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="19" column="67" selection-start-line="19" selection-start-column="67" selection-end-line="19" selection-end-column="67" />
+            <state relative-caret-position="1334">
+              <caret line="46" column="90" selection-start-line="46" selection-start-column="90" selection-end-line="46" selection-end-column="90" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gettingstartedjunit5.iml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/patientintake/ClinicMain.java">
+        <entry file="file://$PROJECT_DIR$/test/patientintake/ClinicCalendarTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/patientintake/PatientAppointment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/patientintake/Doctor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="8" selection-start-line="8" selection-end-line="15" selection-end-column="4" />
+            <state relative-caret-position="1595">
+              <caret line="55" column="8" selection-start-line="55" selection-start-column="8" selection-end-line="55" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/patientintake/ClinicCalendarTest.java">
+        <entry file="file://$PROJECT_DIR$/src/patientintake/ClinicMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="914">
-              <caret line="36" column="4" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor>
-                <folding>
-                  <element signature="e#494#505#0" />
-                </folding>
-              </first_editor>
-              <second_editor />
+            <state relative-caret-position="-96">
+              <caret line="34" column="47" selection-start-line="34" selection-start-column="47" selection-end-line="34" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -99,6 +62,7 @@
       <list>
         <option value="$PROJECT_DIR$/src/patientintake/Doctor.java" />
         <option value="$PROJECT_DIR$/src/patientintake/ClinicCalendar.java" />
+        <option value="$PROJECT_DIR$/src/patientintake/ClinicMain.java" />
         <option value="$PROJECT_DIR$/test/patientintake/ClinicCalendarTest.java" />
       </list>
     </option>
@@ -167,7 +131,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552900655999" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552906162852" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Testconnection" />
@@ -225,7 +189,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClinicCalendarTest.allowEntryOfAnAppointment" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ClinicCalendarTest.returnCurrentDayAppointments" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="gettingstartedjunit5" />
       <extension name="coverage">
         <pattern>
@@ -235,13 +199,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="patientintake" />
       <option name="MAIN_CLASS_NAME" value="patientintake.ClinicCalendarTest" />
-      <option name="METHOD_NAME" value="allowEntryOfAnAppointment" />
+      <option name="METHOD_NAME" value="returnCurrentDayAppointments" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClinicCalendarTest.checkPatientDetails" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ClinicCalendarTest.returnFalseForHasAppointmentsIfThereAreNoAppointments" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="gettingstartedjunit5" />
       <extension name="coverage">
         <pattern>
@@ -251,7 +215,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="patientintake" />
       <option name="MAIN_CLASS_NAME" value="patientintake.ClinicCalendarTest" />
-      <option name="METHOD_NAME" value="checkPatientDetails" />
+      <option name="METHOD_NAME" value="returnFalseForHasAppointmentsIfThereAreNoAppointments" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClinicCalendarTest.returnTrueForHasAppointmentsIfThereAreAppointments" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="gettingstartedjunit5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="patientintake.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="patientintake" />
+      <option name="MAIN_CLASS_NAME" value="patientintake.ClinicCalendarTest" />
+      <option name="METHOD_NAME" value="returnTrueForHasAppointmentsIfThereAreAppointments" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -260,9 +240,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.ClinicCalendarTest" />
-        <item itemvalue="JUnit.ClinicCalendarTest.checkPatientDetails" />
-        <item itemvalue="JUnit.ClinicCalendarTest.allowEntryOfAnAppointment" />
+        <item itemvalue="JUnit.ClinicCalendarTest.returnCurrentDayAppointments" />
         <item itemvalue="Application.ClinicMain" />
+        <item itemvalue="JUnit.ClinicCalendarTest.returnFalseForHasAppointmentsIfThereAreNoAppointments" />
+        <item itemvalue="JUnit.ClinicCalendarTest.returnTrueForHasAppointmentsIfThereAreAppointments" />
       </list>
     </recent_temporary>
   </component>
@@ -280,34 +261,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ClinicCalendarTest_allowEntryOfAnAppointment - 2019.03.13 at 17h 46m 43s.xml">
-      <configuration name="ClinicCalendarTest.allowEntryOfAnAppointment" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ClinicCalendarTest_allowEntryOfAnAppointment - 2019.03.13 at 17h 50m 05s.xml">
-      <configuration name="ClinicCalendarTest.allowEntryOfAnAppointment" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ClinicCalendarTest_allowEntryOfAnAppointment - 2019.03.13 at 17h 50m 33s.xml">
-      <configuration name="ClinicCalendarTest.allowEntryOfAnAppointment" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ClinicCalendarTest_allowEntryOfAnAppointment - 2019.03.13 at 17h 50m 55s.xml">
-      <configuration name="ClinicCalendarTest.allowEntryOfAnAppointment" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ClinicCalendarTest_allowEntryOfAnAppointment - 2019.03.13 at 23h 26m 15s.xml">
-      <configuration name="ClinicCalendarTest.allowEntryOfAnAppointment" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ClinicCalendarTest - 2019.03.14 at 13h 07m 10s.xml">
+    <history-entry file="ClinicCalendarTest - 2019.03.18 at 09h 17m 10s.xml">
       <configuration name="ClinicCalendarTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ClinicCalendarTest_checkPatientDetails - 2019.03.14 at 13h 24m 11s.xml">
+    <history-entry file="ClinicCalendarTest_checkPatientDetails - 2019.03.18 at 09h 30m 15s.xml">
       <configuration name="ClinicCalendarTest.checkPatientDetails" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ClinicCalendarTest - 2019.03.14 at 13h 24m 32s.xml">
-      <configuration name="ClinicCalendarTest" configurationId="JUnit" />
+    <history-entry file="ClinicCalendarTest_returnTrueForHasAppointmentsIfThereAreAppointments - 2019.03.18 at 09h 47m 51s.xml">
+      <configuration name="ClinicCalendarTest.returnTrueForHasAppointmentsIfThereAreAppointments" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ClinicCalendarTest - 2019.03.18 at 09h 15m 58s.xml">
-      <configuration name="ClinicCalendarTest" configurationId="JUnit" />
+    <history-entry file="ClinicCalendarTest_returnFalseForHasAppointmentsIfThereAreNoAppointments - 2019.03.18 at 09h 48m 01s.xml">
+      <configuration name="ClinicCalendarTest.returnFalseForHasAppointmentsIfThereAreNoAppointments" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ClinicCalendarTest - 2019.03.18 at 09h 17m 10s.xml">
+    <history-entry file="ClinicCalendarTest_returnFalseForHasAppointmentsIfThereAreNoAppointments - 2019.03.18 at 09h 58m 29s.xml">
+      <configuration name="ClinicCalendarTest.returnFalseForHasAppointmentsIfThereAreNoAppointments" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClinicCalendarTest_returnCurrentDayAppointments - 2019.03.18 at 10h 23m 15s.xml">
+      <configuration name="ClinicCalendarTest.returnCurrentDayAppointments" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClinicCalendarTest_returnCurrentDayAppointments - 2019.03.18 at 10h 24m 45s.xml">
+      <configuration name="ClinicCalendarTest.returnCurrentDayAppointments" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClinicCalendarTest_returnCurrentDayAppointments - 2019.03.18 at 10h 47m 15s.xml">
+      <configuration name="ClinicCalendarTest.returnCurrentDayAppointments" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClinicCalendarTest_returnCurrentDayAppointments - 2019.03.18 at 10h 47m 50s.xml">
+      <configuration name="ClinicCalendarTest.returnCurrentDayAppointments" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClinicCalendarTest - 2019.03.18 at 10h 49m 24s.xml">
       <configuration name="ClinicCalendarTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -315,6 +296,35 @@
     <frame x="1993" y="39" width="1817" height="2037" extended-state="0" />
     <editor active="true" />
     <layout>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.2683632" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3297572" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3297572" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24985541" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.32967034" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout>
+    <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2683632" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
@@ -342,21 +352,15 @@
       <window_info anchor="right" id="Maven" order="5" weight="0.32967034" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
-    </layout>
+    </layout-to-restore>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/test/patientintake/ClinicCalendarShould.java" />
     <entry file="file://$PROJECT_DIR$/READ.md" />
-    <entry file="file://$PROJECT_DIR$/gettingstartedjunit5.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/patientintake/ClinicMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/patientintake/PatientAppointment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="116">
@@ -388,17 +392,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/gettingstartedjunit5.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/patientintake/ClinicCalendar.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="19" column="67" selection-start-line="19" selection-start-column="67" selection-end-line="19" selection-end-column="67" />
+        <state relative-caret-position="1334">
+          <caret line="46" column="90" selection-start-line="46" selection-start-column="90" selection-end-line="46" selection-end-column="90" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/patientintake/ClinicCalendarTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="914">
-          <caret line="36" column="4" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
+        <state relative-caret-position="1595">
+          <caret line="55" column="8" selection-start-line="55" selection-start-column="8" selection-end-line="55" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/patientintake/ClinicMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-96">
+          <caret line="34" column="47" selection-start-line="34" selection-start-column="47" selection-end-line="34" selection-end-column="47" />
         </state>
       </provider>
     </entry>
