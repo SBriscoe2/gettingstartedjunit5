@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="030f23c3-2329-45d7-9b5b-0baad627adfe" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/test/patientintake/ClinicCalendarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/patientintake/ClinicCalendarTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/patientintake/DateTimeConverterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/patientintake/DateTimeConverterTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,11 +34,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/patientintake/ClinicCalendarTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="551">
-              <caret line="52" column="74" lean-forward="true" selection-start-line="52" selection-start-column="74" selection-end-line="52" selection-end-column="74" />
+            <state relative-caret-position="451">
+              <caret line="82" column="93" selection-start-line="82" selection-start-column="93" selection-end-line="82" selection-end-column="93" />
             </state>
           </provider>
         </entry>
@@ -52,11 +52,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/patientintake/DateTimeConverterTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="22" column="6" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
+            <state relative-caret-position="348">
+              <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -81,8 +81,8 @@
         <option value="$PROJECT_DIR$/src/patientintake/ClinicMain.java" />
         <option value="$PROJECT_DIR$/src/patientintake/DateTimeConverter.java" />
         <option value="$PROJECT_DIR$/src/patientintake/ClinicCalendar.java" />
-        <option value="$PROJECT_DIR$/test/patientintake/DateTimeConverterTest.java" />
         <option value="$PROJECT_DIR$/test/patientintake/ClinicCalendarTest.java" />
+        <option value="$PROJECT_DIR$/test/patientintake/DateTimeConverterTest.java" />
       </list>
     </option>
   </component>
@@ -150,7 +150,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552918482189" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552920604540" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Testconnection" />
@@ -179,7 +179,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ClinicCalendarTest.checkPatientDetails">
+  <component name="RunManager" selected="JUnit.Date Time releated Test">
     <configuration name="ClinicCalendarTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="gettingstartedjunit5" />
       <extension name="coverage">
@@ -207,6 +207,17 @@
       <option name="MAIN_CLASS_NAME" value="patientintake.ClinicCalendarTest" />
       <option name="METHOD_NAME" value="checkPatientDetails" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Date Time releated Test" type="JUnit" factoryName="JUnit">
+      <module name="gettingstartedjunit5" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="tags" />
+      <option name="PARAMETERS" value="" />
+      <tag value="dateTime" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -257,6 +268,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="JUnit.Date Time releated Test" />
+      <item itemvalue="JUnit.ClinicCalendarTest" />
+      <item itemvalue="JUnit.ClinicCalendarTest.checkPatientDetails" />
+      <item itemvalue="JUnit.DateTimeConverterTest" />
+      <item itemvalue="JUnit.DateTimeConverterTest$TodayTests" />
+      <item itemvalue="JUnit.DateTimeConverterTest.convertsTodayStringCorrectly" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.ClinicCalendarTest.checkPatientDetails" />
@@ -281,15 +300,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DateTimeConverterTest_convertsTodayStringCorrectly - 2019.03.18 at 13h 46m 20s.xml">
-      <configuration name="DateTimeConverterTest.convertsTodayStringCorrectly" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DateTimeConverterTest - 2019.03.18 at 13h 47m 59s.xml">
-      <configuration name="DateTimeConverterTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DateTimeConverterTest - 2019.03.18 at 13h 48m 38s.xml">
-      <configuration name="DateTimeConverterTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="DateTimeConverterTest$TodayTests - 2019.03.18 at 13h 53m 58s.xml">
       <configuration name="DateTimeConverterTest$TodayTests" configurationId="JUnit" />
     </history-entry>
@@ -310,6 +320,15 @@
     </history-entry>
     <history-entry file="ClinicCalendarTest_checkPatientDetails - 2019.03.18 at 14h 13m 01s.xml">
       <configuration name="ClinicCalendarTest.checkPatientDetails" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Date_Time_releated_Test - 2019.03.18 at 14h 42m 48s.xml">
+      <configuration name="Date Time releated Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Date_Time_releated_Test - 2019.03.18 at 14h 43m 16s.xml">
+      <configuration name="Date Time releated Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Date_Time_releated_Test - 2019.03.18 at 14h 43m 49s.xml">
+      <configuration name="Date Time releated Test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -436,17 +455,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/patientintake/DateTimeConverterTest.java">
+    <entry file="file://$PROJECT_DIR$/test/patientintake/ClinicCalendarTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="22" column="6" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
+        <state relative-caret-position="451">
+          <caret line="82" column="93" selection-start-line="82" selection-start-column="93" selection-end-line="82" selection-end-column="93" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/patientintake/ClinicCalendarTest.java">
+    <entry file="file://$PROJECT_DIR$/test/patientintake/DateTimeConverterTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="52" column="74" lean-forward="true" selection-start-line="52" selection-start-column="74" selection-end-line="52" selection-end-column="74" />
+        <state relative-caret-position="348">
+          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
         </state>
       </provider>
     </entry>

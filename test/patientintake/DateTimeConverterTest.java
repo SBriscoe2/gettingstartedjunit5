@@ -10,6 +10,10 @@ import java.time.LocalDateTime;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
+// Use @Tag in front of @test annotation or Class name to run groups of tests
+// Go to edit config, + junit, select tag  from test kind add name of tag to be selected for testing
+
+//  @Tag("dateTime")
 @DisplayName("DateTimeConverter should")
 class DateTimeConverterTest {
 
