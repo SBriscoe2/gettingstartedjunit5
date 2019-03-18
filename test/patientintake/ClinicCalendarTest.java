@@ -16,6 +16,7 @@ class ClinicCalendarTest {
 
     private ClinicCalendar calendar;
 
+
     @BeforeAll
     static void initall() {
         System.out.println("Before All");
@@ -45,11 +46,15 @@ class ClinicCalendarTest {
         calendar.addAppointment("Bob", "Green", "avery", "01/01/2020 11:00 am");
         List<PatientAppointment> bobAppointments = calendar.getAppointments();
         PatientAppointment patient1 = bobAppointments.get(0);
-        assertEquals("Bob", patient1.getPatientFirstName());
-        assertEquals("Green", patient1.getPatientLastName());
-        // verify two variables are same in memory
-        assertSame(Doctor.avery, patient1.getDoctor());
 
+        // junit when first test fails all other asserts are ignored
+        // add assert all and change assert statementd to lamdas
+        assertAll(
+                () -> assertEquals("Bob", patient1.getPatientFirstName()),
+                () -> assertEquals("Green", patient1.getPatientLastName()),
+                // verify two variables are same in memory
+                () -> assertSame(Doctor.avery, patient1.getDoctor())
+        );
     }
 
     @Test
@@ -64,10 +69,11 @@ class ClinicCalendarTest {
     void returnFalseForHasAppointmentsIfThereAreNoAppointments() {
         System.out.println("false if no appointments");
         assertFalse(calendar.hasAppointment(LocalDate.of(2019, 12,25)));
-
     }
 
     @Test
+    // @Disabled used to skip tests but still shown in output
+    // Good when tests are failing and you intend to fix.
     void returnCurrentDayAppointments() {
         System.out.println("Current day appointments");
         calendar.addAppointment("Jane", "Smith", "johnson", "12/25/2019 1:00 pm");
@@ -75,7 +81,6 @@ class ClinicCalendarTest {
         calendar.addAppointment("Jane", "Smith", "johnson", "03/18/2019 2:00 pm");
         assertEquals(2, calendar.getTodayAppointments().size());
         // assertIterableEquals(calendar.getTodayAppointments(), calendar.getAppointments());
-
     }
 
     @AfterEach
