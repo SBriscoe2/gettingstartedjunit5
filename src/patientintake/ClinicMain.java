@@ -2,6 +2,7 @@ package patientintake;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
+import java.util.Optional;
 import java.util.Scanner;
 
 public class ClinicMain {
@@ -24,6 +25,7 @@ public class ClinicMain {
       System.out.println("1. Enter a Patient Appointment");
       System.out.println("2. View All Appointments");
       System.out.println("3. View Today's Appointments");
+      System.out.println("4: Enter Patient Height Weight");
       System.out.println("X.  Exit System.");
       System.out.print("Option: ");
       String option = scanner.next();
@@ -33,6 +35,9 @@ public class ClinicMain {
          case "2": performAllAppointments();
                  return option;
          case "3": performTodaysAppointments();
+                  return option;
+         case "4": performHeightWeight(scanner);
+                  return option;
          default: System.out.println("Invalid option, please re-enter.");
                   return option;
       }
@@ -82,6 +87,37 @@ public class ClinicMain {
       System.out.println("\nPress any key to continue...");
       System.in.read();
       System.out.println("\n\n");
+   }
+
+   private static void performHeightWeight(Scanner scanner) {
+      scanner.nextLine();
+      System.out.println("\n\nEnter patient height and weight for today's appointment:");
+      System.out.println("  Patients Last Name  ");
+      String lastName = scanner.nextLine();
+      System.out.println("  Patients First Name  ");
+      String firstName = scanner.nextLine();
+      System.out.println(lastName + " " + firstName);
+      System.out.println("calendar stream " + calendar.getTodayAppointments().stream());
+      PatientAppointment appt = findPatientAppointment(lastName, firstName).orElse (null);
+      if (appt != null) {
+         System.out.println(" Height in Inches: ");
+         Integer inches = scanner.nextInt();
+         System.out.println(" Weight in Pounds: ");
+         Integer pounds = scanner.nextInt();
+         double roundedToTwoPlaces = BmiCalculator.calculateBmi(inches, pounds);
+         appt.setBmi(roundedToTwoPlaces);
+         System.out.println("Set patient BMI to " + roundedToTwoPlaces + "\n\n");
+      }
+      else {
+         System.out.println("Patient not found.\n\n");
+      }
+   }
+
+   private static Optional<PatientAppointment> findPatientAppointment(String lastName, String firstName) {
+      return calendar.getTodayAppointments().stream()
+              .filter(p -> (p.getPatientLastName().equalsIgnoreCase(lastName))).findFirst();
+                      //&& p.getPatientFirstName().equalsIgnoreCase(firstName)))
+              //.findFirst();
 
    }
 
