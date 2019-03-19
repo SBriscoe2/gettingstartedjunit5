@@ -4,6 +4,8 @@ import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Nested;
 import org.junit.jupiter.api.Test;
 
 import java.time.LocalDate;
@@ -71,16 +73,55 @@ class ClinicCalendarTest {
         assertFalse(calendar.hasAppointment(LocalDate.of(2019, 12,25)));
     }
 
-    @Test
-    // @Disabled used to skip tests but still shown in output
-    // Good when tests are failing and you intend to fix.
-    void returnCurrentDayAppointments() {
-        System.out.println("Current day appointments");
-        calendar.addAppointment("Jane", "Smith", "johnson", "12/25/2019 1:00 pm");
-        calendar.addAppointment("Jane", "Smith", "johnson", "03/18/2019 1:00 pm");
-        calendar.addAppointment("Jane", "Smith", "johnson", "03/18/2019 2:00 pm");
-        assertEquals(2, calendar.getTodayAppointments().size());
-        // assertIterableEquals(calendar.getTodayAppointments(), calendar.getAppointments());
+    @Nested
+    @DisplayName("return appointments correctly")
+    class AppointmentsForDay {
+
+        @Test
+        @DisplayName("appointments for today")
+            // @Disabled used to skip tests but still shown in output
+            // Good when tests are failing and you intend to fix.
+        void returnCurrentDayAppointments() {
+            calendar.addAppointment("Jane", "Smith", "johnson", "12/25/2019 1:00 pm");
+            calendar.addAppointment("Jane", "Smith", "johnson", "03/18/2019 1:00 pm");
+            calendar.addAppointment("Jane", "Smith", "johnson", "03/18/2019 2:00 pm");
+            assertEquals(2, calendar.getTodayAppointments().size());
+            // assertIterableEquals(calendar.getTodayAppointments(), calendar.getAppointments());
+        }
+
+        @Test
+        @DisplayName("appointments for tomorrow")
+            // @Disabled used to skip tests but still shown in output
+            // Good when tests are failing and you intend to fix.
+        void returnTomorrowsAppointments() {
+            calendar.addAppointment("Jane", "Smith", "johnson", "12/26/2019 1:00 pm");
+            calendar.addAppointment("Jane", "Smith", "johnson", "03/19/2019 1:00 pm");
+            calendar.addAppointment("Jane", "Smith", "johnson", "03/19/2019 2:00 pm");
+            assertEquals(2, calendar.getTomorrowAppointments().size());
+            // assertIterableEquals(calendar.getTodayAppointments(), calendar.getAppointments());
+        }
+
+    }
+
+    @Nested
+    @DisplayName("return upcoming appointments")
+    class UpcomingAppointments {
+
+        @Test
+        @DisplayName("no appointments schedule in future")
+        void whenThereAreNone() {
+            List<PatientAppointment> appointments = calendar.getUpcomingAppointments();
+            assertEquals(0, appointments.size());
+        }
+
+        @Test
+        @DisplayName("correctly when some appointments are in the past")
+        void whenThereAreSome() {
+            calendar.addAppointment("Jane", "Smith", "johnson", "12/26/2017 1:00 pm");
+            calendar.addAppointment("Jane", "Smith", "johnson", "03/19/2018 1:00 pm");
+            calendar.addAppointment("Jane", "Smith", "johnson", "03/19/2020 2:00 pm");
+            assertEquals(1, calendar.getUpcomingAppointments().size());
+        }
     }
 
     @AfterEach
